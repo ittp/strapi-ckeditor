@@ -1,0 +1,42 @@
+{
+  "name": "my-project",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "develop-admin": "strapi develop --watch-admin",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^20.0.0",
+    "@ckeditor/ckeditor5-react": "^2.1.0",
+    "@tinymce/tinymce-react": "^3.6.0",
+    "ckeditor-build-with-simple-upload-provider-strapi": "^1.0.7",
+    "knex": "<0.20.0",
+    "sqlite3": "latest",
+    "strapi": "3.0.1",
+    "strapi-admin": "3.0.1",
+    "strapi-connector-bookshelf": "3.0.1",
+    "strapi-plugin-content-manager": "3.0.1",
+    "strapi-plugin-content-type-builder": "3.0.1",
+    "strapi-plugin-email": "3.0.1",
+    "strapi-plugin-upload": "3.0.1",
+    "strapi-plugin-users-permissions": "3.0.1",
+    "strapi-utils": "3.0.1"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "e1e5da49-c144-4e0b-915e-06167d85fb9d"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
